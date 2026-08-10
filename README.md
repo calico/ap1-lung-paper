@@ -21,10 +21,10 @@ This repository contains the R scripts used to process and analyze the single-ce
 The scripts use placeholder paths (e.g. `/path/to/...`). To reproduce an analysis, set these to the location of the corresponding data on your system. Raw and processed data are deposited at:
 
 - This study: {GEO accession number}
-- Published datasets reanalyzed here: Habermann {GSE135893}, Adams {GSE136831}, Tsukui {GSE132771}, Valenzi {GSE214085}, Zepp {GSE149563}, Strunz {GSE141259}, Curras {GSE211713}, Narvaez del Pilar {GSE180822}, LGRC {GSE47460} — see each dataset's original publication for terms of use.
+- Published datasets reanalyzed here: Habermann GSE135893, Adams GSE136831, Tsukui GSE132771, Valenzi GSE214085, Zepp GSE149563, Strunz GSE141259, Curras-Alonso GSE211713, Narvaez del Pilar GSE180822, LGRC GSE47460 — see each dataset's original publication for terms of use.
 
-A few analyses depend on objects produced elsewhere in the repo: `bulk_rnaseq/KD_OE.R` reads the fibroblast object in the GEO repository, and `bulk_rnaseq/SM_screen.R` uses the AFOS count matrix.
+A few analyses depend on objects produced elsewhere in the repo: `bulk_rnaseq/KD_OE.R` reads the fibroblast object in the GEO repository, and `bulk_rnaseq/inhibitor_screen.R` uses the AFOS count matrix.
 
 ## Requirements
 
-Analyses were run in R (version 4.3.2) using Seurat, Signac, DESeq2, ChrAccR, and related Bioconductor packages.
+Analyses were run in R (version 4.3.2).
