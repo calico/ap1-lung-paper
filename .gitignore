@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# data objects and large inputs - not version controlled
+*.rds
+*.h5
+*.tsv.gz
