@@ -26,7 +26,7 @@ celltype_order <- c("Activated myofibroblasts","Adult ductal myofibroblasts",
                     "Dev alveolar fibroblasts","Alveolar fibroblasts")
 
 #annotated objects from the GEO submission
-multiome_integrated <- readRDS("/path/to/multiome_integrated_final.rds")
+multiome_integrated <- readRDS("/path/to/multiome_integrated.rds")
 fibroblasts_final   <- readRDS("/path/to/fibroblasts_final.rds")
 
 #chromVAR and GRaNIE objects produced by part 2
