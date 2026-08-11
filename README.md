@@ -23,6 +23,10 @@ Raw and processed data are deposited at:
 - This study: {GEO accession number}
 - Published datasets reanalyzed here: Habermann GSE135893, Adams GSE136831, Tsukui GSE132771, Valenzi GSE214085, Zepp GSE149563, Strunz GSE141259, Curras-Alonso GSE211713, Narvaez del Pilar GSE180822, LGRC GSE47460 — see each dataset's original publication for terms of use.
 
+### R environments
+
+The analyses were run in two R environments. `package_versions.txt` lists which environment each script was run in, and the version of every package used.
+
 --------------
 
 ## Repository structure
