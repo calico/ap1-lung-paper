@@ -1,7 +1,7 @@
 # AFOS bulk RNA-seq analysis
 # DESeq2 differential expression in EGFP- vs AFOS-transduced mouse pulmonary fibroblasts.
 # Inputs: sampleTable_AFOS.txt  sample metadata
-#         counts_AFOS.csv       gene-level counts; col 1 = ensembl_id, col 2 = gene symbol, cols 3-8 = samples
+#         counts_AFOS.csv       gene-level counts; col 1 = ensembl_id, col 2 = gene_symbol, cols 3-8 = samples
 
 # ── 0. Load Packages ──────────────────────────────────────────────────────────
 
