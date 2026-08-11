@@ -1,4 +1,4 @@
-# Human lung dataset figures - figure reproduction
+# Human lung dataset figures - single-cell dataset figure reproduction
 # Reproduces the main and supplemental figure panels derived from the human single-cell
 # datasets analyzed in human_sc_analysis_01.R
 # Inputs: Seurat objects saved in human_sc_analysis_01.R
