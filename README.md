@@ -36,7 +36,7 @@ The analyses were run in two R environments. `package_versions.txt` lists which 
   - `analysis_02.R` — downstream analysis, chromatin scoring, GRN inference
   - `external_sc_dataset_analysis_03.R` — reprocessing of published external datasets for comparison
   - `figures_04.R` — reads the objects above and produces the multiome figure panels
-- **`human/`** — reanalysis of published human lung datasets Run `human_analysis_01.R` before `human_sc_figures_02.R`.
+- **`human/`** — reanalysis of published human lung datasets
   - `human_sc_analysis_01.R`, `human_sc_figures_02.R` — analysis of published single-cell RNA- and ATAC-seq datasets and associated figures
   - `human_microarray_analysis_03.R` - whole-lung microarray dataset analysis
 - **`bulk_rnaseq/`** — bulk RNA-seq analyses:
