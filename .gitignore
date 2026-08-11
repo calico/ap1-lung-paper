@@ -6,7 +6,7 @@
 .RData
 .Rproj.user/
 
-# data objects and large inputs - not version controlled
+# data objects and large inputs
 *.rds
 *.h5
 *.tsv.gz
