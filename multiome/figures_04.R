@@ -29,11 +29,11 @@ celltype_order <- c("Activated myofibroblasts","Adult ductal myofibroblasts",
 #annotated objects from the GEO submission
 multiome_integrated <- readRDS("/path/to/multiome_integrated.rds")
 fibroblasts_final   <- readRDS("/path/to/fibroblasts_final.rds")
+grn_object          <- readRDS("/path/to/grn_object.rds")
 
-#chromVAR and GRaNIE objects produced by part 2
+#chromVAR objects produced by part 2
 fibroblasts_final_chrom         <- readRDS("/path/to/fibroblasts_final_chrom.rds")
 multiome_integrated_downsampled <- readRDS("/path/to/multiome_integrated_downsampled.rds")
-grn_object                      <- readRDS("/path/to/grn_object.rds")
 
 #published mouse datasets processed in part 3
 fibroblasts_Zepp    <- readRDS("/path/to/fibroblasts_Zepp.rds")
