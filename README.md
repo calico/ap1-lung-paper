@@ -21,7 +21,7 @@ The scripts are not organized as an R package; each is a standalone script meant
 Raw and processed data are deposited at:
 
 - This study: {GEO accession number}
-- Published datasets reanalyzed here: Habermann GSE135893, Adams GSE136831, Tsukui GSE132771, Valenzi GSE214085, Zepp GSE149563, Strunz GSE141259, Curras-Alonso GSE211713, Narvaez del Pilar GSE180822, LGRC GSE47460 — see each dataset's original publication for terms of use.
+- Published datasets reanalyzed here: Habermann et al: GSE135893, Adams et al: GSE136831, Tsukui et al: GSE132771, Valenzi et al: GSE214085, Zepp et al: GSE149563, Strunz et al: GSE141259, Curras-Alonso et al: GSE211713, Narvaez del Pilar et al: GSE180822, LGRC: GSE47460 — see each dataset's original publication for terms of use.
 
 ### R environments
 
