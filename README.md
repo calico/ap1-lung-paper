@@ -4,6 +4,8 @@ Analysis code accompanying **AM Kaiser, A Luo, K Sivasubramanian, G Dueñas, B M
 
 This repository contains the R scripts used to process and analyze the single-cell multiome, bulk RNA-seq, ATAC-seq, and published human datasets reported in the paper, and to generate the figures.
 
+--------------
+
 ## Instructions
 
 ### Clone git repository
@@ -20,6 +22,8 @@ Raw and processed data are deposited at:
 
 - This study: {GEO accession number}
 - Published datasets reanalyzed here: Habermann GSE135893, Adams GSE136831, Tsukui GSE132771, Valenzi GSE214085, Zepp GSE149563, Strunz GSE141259, Curras-Alonso GSE211713, Narvaez del Pilar GSE180822, LGRC GSE47460 — see each dataset's original publication for terms of use.
+
+--------------
 
 ## Repository structure
 
