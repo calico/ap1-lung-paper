@@ -11,7 +11,7 @@ This repository contains the R scripts used to process and analyze the single-ce
 ### Clone git repository
 
 ```r
-git clone https://github.com/<GITHUB_USERNAME>/ap1_lung_paper.git
+git clone https://github.com/GITHUB_USERNAME/ap1_lung_paper.git
 ```
 
 ### Data and file paths
