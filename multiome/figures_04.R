@@ -2,7 +2,7 @@
 # Reproduces the main and supplemental figure panels derived from the mouse single-nucleus
 # multiome dataset and published scRNA-seq datasets, using the annotated RDS objects 
 # provided in the GEO upload together with the objects produced by parts 2 and 3 of this analysis.
-# Inputs and their locations are listed in section 1.
+# Inputs and their origins are listed in section 1.
 
 # ── 0. Load Packages ──────────────────────────────────────────────────────────
 
