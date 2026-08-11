@@ -4,18 +4,6 @@ Analysis code accompanying **AM Kaiser, A Luo, K Sivasubramanian, G Dueñas, B M
 
 This repository contains the R scripts used to process and analyze the single-cell multiome, bulk RNA-seq, ATAC-seq, and published human datasets reported in the paper, and to generate the figures.
 
-## Repository structure
-
-- **`multiome/`** — mouse lung single-nuclei multiome (RNA + ATAC)
-  - `initial_processing_01.R` — load 10x outputs, QC, integrate, write the base Seurat objects
-  - `analysis_02.R` — downstream analysis, chromatin scoring, GRN inference
-  - `external_sc_dataset_analysis_03.R` — reprocessing of published external datasets for comparison
-  - `figures_04.R` — reads the objects above and produces the multiome figure panels
-- **`human/`** — reanalysis of published human lung datasets. Run `human_analysis_01.R` before `human_sc_figures_02.R`.
-- **`bulk_rnaseq/`** — bulk RNA-seq analyses:
-  - `AFOS.R`, `KD_OE.R`, `inhibitor_screen.R`
-- **`atac/`** — bulk ATAC-seq accessibility analysis (`ChrAccR.R`).
-
 ## Instructions
 
 ### Clone git repository
@@ -32,5 +20,19 @@ Raw and processed data are deposited at:
 
 - This study: {GEO accession number}
 - Published datasets reanalyzed here: Habermann GSE135893, Adams GSE136831, Tsukui GSE132771, Valenzi GSE214085, Zepp GSE149563, Strunz GSE141259, Curras-Alonso GSE211713, Narvaez del Pilar GSE180822, LGRC GSE47460 — see each dataset's original publication for terms of use.
+
+## Repository structure
+
+- **`multiome/`** — mouse lung single-nuclei multiome (RNA + ATAC)
+  - `initial_processing_01.R` — load 10x outputs, QC, integrate, write the base Seurat objects
+  - `analysis_02.R` — downstream analysis, chromatin scoring, GRN inference
+  - `external_sc_dataset_analysis_03.R` — reprocessing of published external datasets for comparison
+  - `figures_04.R` — reads the objects above and produces the multiome figure panels
+- **`human/`** — reanalysis of published human lung datasets. Run `human_analysis_01.R` before `human_sc_figures_02.R`.
+- **`bulk_rnaseq/`** — bulk RNA-seq analyses:
+  - `AFOS.R`, `KD_OE.R`, `inhibitor_screen.R`
+- **`atac/`** — bulk ATAC-seq accessibility analysis (`ChrAccR.R`).
+
+### Dependencies between scripts
 
 A few analyses depend on objects produced elsewhere in the repo: `bulk_rnaseq/KD_OE.R` reads the fibroblast object in the GEO repository, and `bulk_rnaseq/inhibitor_screen.R` uses the AFOS count matrix.
