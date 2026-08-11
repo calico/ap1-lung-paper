@@ -5,7 +5,7 @@
 # and fibrotic ECM signatures.
 #
 # Inputs: a Seurat object saved as .rds for each published dataset 
-# created from data deposited to GEO
+# created from data deposited to each individual paper's GEO accession number (listed above)
 # Outputs: fibroblasts_Curras, fibroblasts_Tsukui, fibroblasts_Zepp, fibroblasts_Strunz
 #          and fibroblasts_Narvaez, each with ECM module scores added
 
