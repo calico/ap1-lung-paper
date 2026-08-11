@@ -16,7 +16,7 @@ git clone https://github.com/<GITHUB_USERNAME?=>/ap1_lung_paper.git
 
 ### Data and file paths
 
-The scripts are not organized as an R package; each is a standalone script meant to be run section by section in an R session (or with `Rscript`). Nothing is installed from this repository — the packages the scripts depend on are installed from CRAN, Bioconductor, and GitHub. The user needs to download raw and processed data from online repositories to run the analyses in this repository. The scripts use placeholder paths (e.g. `/path/to/...`). To reproduce an analysis, set these to the location of the corresponding data on your system. 
+The scripts are not organized as an R package; each is a standalone script meant to be run section by section in an R session (or with `Rscript`). Nothing is installed from this repository — the packages the scripts depend on are installed from CRAN, Bioconductor, and GitHub. The user needs to download raw and processed data from online repositories to run the analyses in this repository. Inputs for each script are provided in data deposited at the GEO and are listed at the top of each script. The scripts use placeholder paths (e.g. `/path/to/...`). To reproduce an analysis, set these to the location of the corresponding data on your system. 
 
 Raw and processed data are deposited at:
 
@@ -43,4 +43,4 @@ The analyses were run in two R environments. `package_versions.txt` lists which 
 
 ### Dependencies between scripts
 
-Inputs for each script are provided in data deposited at the GEO and are listed at the top of each script. Most analyses are contained within their experimental folder. However, a few analyses depend on objects produced elsewhere in the repo: `bulk_rnaseq/KD_OE.R` reads the fibroblast object in the GEO repository, and `bulk_rnaseq/inhibitor_screen.R` uses the AFOS count matrix.
+Most analyses are contained within their experimental folder. However, a few analyses depend on objects produced elsewhere in the repo: `bulk_rnaseq/KD_OE.R` reads the fibroblast object in the GEO repository, and `bulk_rnaseq/inhibitor_screen.R` uses the AFOS count matrix.
