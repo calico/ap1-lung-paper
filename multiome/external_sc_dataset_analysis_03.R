@@ -1,6 +1,6 @@
 # Mouse lung multiome - part 3 of 4: published mouse scRNA-seq datasets
 # Processes the published mouse lung fibroblast datasets used for comparison: Curras-Alonso et al
-# (GSE211713), Tsukui et al (GSE132771), Zepp et al (GSE149563), Strunz et al (GSE141259) and Narvaez de Pilar et al
+# (GSE211713), Tsukui et al (GSE132771), Zepp et al (GSE149563), Strunz et al (GSE141259) and Narvaez del Pilar et al
 # (GSE180822). Each is clustered, subset to fibroblasts, and scored for the developmental
 # and fibrotic ECM signatures.
 #
