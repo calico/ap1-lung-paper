@@ -2,7 +2,7 @@
 # DESeq2 differential expression for AP-1 family knockdowns and Creb5/Atf7 overexpression
 # in mouse pulmonary fibroblasts, plus MuSiC deconvolution and ssGSEA/GSVA signature scoring.
 # Inputs: sampleTable_KD_OE.txt  sample metadata
-#         counts_KD_OE.csv       gene-level counts; col 1 = ensembl_id, col 2 = gene symbol, cols 3-45 = samples
+#         counts_KD_OE.csv       gene-level counts; col 1 = ensembl_id, col 2 = gene _ymbol, cols 3-45 = samples
 #         fibroblasts_final.rds  annotated multiome fibroblast object used as the single-cell reference
 
 # ── 0. Load Packages ──────────────────────────────────────────────────────────
