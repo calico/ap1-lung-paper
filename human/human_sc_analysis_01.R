@@ -1,7 +1,7 @@
 # Analysis of published human single cell/nuclei RNA- and ATAC-seq lung datasets
 # ECM signature scoring and AP-1 transcription factor activity in
-# published human scRNA-seq (Habermann GSE135893, Adams GSE136831, Tsukui GSE132771),
-# and snRNA- and snATAC-seq (Valenzi GSE214085).
+# published human scRNA-seq (Habermann et al: GSE135893, Adams et al: GSE136831, Tsukui et al: GSE132771),
+# and snRNA- and snATAC-seq (Valenzi et al: GSE214085).
 # Inputs: Seurat objects saved as .rds for each published dataset downloaded from the GEO.
 
 # ── 0. Load Packages ──────────────────────────────────────────────────────
