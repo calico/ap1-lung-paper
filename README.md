@@ -45,4 +45,4 @@ The analyses were run in two R environments. `package_versions.txt` lists which 
 
 ### Dependencies between scripts
 
-Most analyses are contained within their experimental folder. However, a few analyses depend on objects produced elsewhere in the repo: `bulk_rnaseq/KD_OE.R` reads the fibroblast object in the GEO repository, and `bulk_rnaseq/inhibitor_screen.R` uses the AFOS count matrix.
+Most analyses are contained within their experimental folder. However, a few analyses depend on objects produced elsewhere in the repo: `bulk_rnaseq/KD_OE.R` reads the fibroblasts_fina RDS object in the GEO repository, and `bulk_rnaseq/inhibitor_screen.R` uses the AFOS sample table and counts matrix.
