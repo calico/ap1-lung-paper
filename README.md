@@ -1,6 +1,6 @@
-# Code for *AP-1 regulates lung developmental versus fibrotic extracellular matrix transcriptional programs*
+# Code for *AP-1 specifies developmental versus fibrotic extracellular matrix transcriptional programs in the lung*
 
-Analysis code accompanying **AM Kaiser, A Luo, K Sivasubramanian, G Dueñas, B Martin-McNulty, W Cedron-Craft, JM Patino, AJ Chang, J Riegler, & JG Ruby**, *AP-1 regulates lung developmental versus fibrotic extracellular matrix transcriptional programs*.
+Analysis code accompanying **AM Kaiser, A Luo, K Sivasubramanian, G Dueñas, B Martin-McNulty, W Cedron-Craft, JM Patino, AJ Chang, J Riegler, & JG Ruby**, *AP-1 specifies developmental versus fibrotic extracellular matrix transcriptional programs in the lung*.
 
 This repository contains the R scripts used to process and analyze the single-cell multiome, bulk RNA-seq, ATAC-seq, and published human datasets reported in the paper, and to generate the figures.
 
