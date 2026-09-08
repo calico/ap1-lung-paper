@@ -2,7 +2,7 @@
 # End-to-end ATAC-seq processing (peak calling, normalization, differential accessibility)
 # for EGFP- vs AFOS-transduced mouse pulmonary fibroblasts
 # Inputs: sampleAnnotation.tsv  sample metadata
-#         BAM_files/            aligned BAM files named in the bamFilename column
+#         BAM_files/            aligned BAM files named in the bamFilename column produced from atac_process.sh
 
 # ── 0. Load Packages ──────────────────────────────────────────────────────────
 
