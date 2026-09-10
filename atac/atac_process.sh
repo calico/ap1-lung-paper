@@ -21,7 +21,7 @@ FQ_DIR=$1
 OUT_DIR=$2
 
 # mm10 bowtie2 index prefix
-INDEX=/home/alyssa/references/mm10/mm10
+INDEX=/mm10/reference
 
 # Nextera transposase adapter (Tn5 mosaic end)
 ADAPTER=CTGTCTCTTATACACATCT
