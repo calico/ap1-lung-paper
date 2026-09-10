@@ -29,19 +29,19 @@ The analyses were run in two R environments. `package_versions.txt` lists which 
 ### Data
 The user needs to download raw and processed data from online repositories to run the analyses here.
 
-- This study: {GEO accession number}
+- This study: GSE346825
 - Published datasets reanalyzed here: Habermann et al: GSE135893, Adams et al: GSE136831, Tsukui et al: GSE132771, Valenzi et al: GSE214085, Zepp et al: GSE149563, Strunz et al: GSE141259, Curras-Alonso et al: GSE211713, Narvaez del Pilar et al: GSE180822, LGRC: GSE47460 — see each dataset's original publication for terms of use.
 
 Aligned BAM files for the ATAC-seq experiment are not deposited at GEO. `atac/atac_process.sh` regenerates them from the deposited fastq files, and `atac/ChrAccR.R` takes those BAMs as input. The ATAC-seq scripts and `sampleAnnotation.tsv` use the original sequencing basenames, which map to the GEO sample titles as follows:
 
 | script name | GEO library | condition |
 |---|---|---|
-| 1-0_S129 | 1_EGFP_1 | EGFP, replicate 1 |
-| 2-0_S130 | 2_EGFP_2 | EGFP, replicate 2 |
-| 3-0_S131 | 3_EGFP_3 | EGFP, replicate 3 |
-| 4-0_S132 | 4_AFOS_1 | AFOS, replicate 1 |
-| 5-0_S133 | 5_AFOS_2 | AFOS, replicate 2 |
-| 6-0_S134 | 6_AFOS_3 | AFOS, replicate 3 |
+| 1-0_S129 | 1_EGFP_1 | EGFP, replicate 1, sample 1 |
+| 2-0_S130 | 2_EGFP_2 | EGFP, replicate 2, sample 2 |
+| 3-0_S131 | 3_EGFP_3 | EGFP, replicate 3, sample 3 |
+| 4-0_S132 | 4_AFOS_1 | AFOS, replicate 1, sample 4 |
+| 5-0_S133 | 5_AFOS_2 | AFOS, replicate 2, sample 5 |
+| 6-0_S134 | 6_AFOS_3 | AFOS, replicate 3, sample 6 |
 
 --------------
 
